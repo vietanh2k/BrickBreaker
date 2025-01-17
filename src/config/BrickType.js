@@ -1,0 +1,45 @@
+
+var BrickType = [
+    {
+        type:1,
+        HP:1,
+        scoreValue:50
+    },
+    {
+        type:2,
+        HP:2,
+        scoreValue:120
+    },
+    {
+        type:3,
+        HP:3,
+        scoreValue:200
+    },
+    {
+        type:3,
+        textureName:"E3.png",
+        bulletType:"W2.png",
+        HP:6,
+        moveType:MW.ENEMY_MOVE_TYPE.OVERLAP,
+        attackMode:MW.ENEMY_MOVE_TYPE.NORMAL,
+        scoreValue:80
+    },
+    {
+        type:4,
+        textureName:"E4.png",
+        bulletType:"W2.png",
+        HP:10,
+        moveType:MW.ENEMY_MOVE_TYPE.HORIZONTAL,
+        attackMode:MW.ENEMY_ATTACK_MODE.TSUIHIKIDAN,
+        scoreValue:150
+    },
+    {
+        type:5,
+        textureName:"E5.png",
+        bulletType:"W2.png",
+        HP:15,
+        moveType:MW.ENEMY_MOVE_TYPE.HORIZONTAL,
+        attackMode:MW.ENEMY_MOVE_TYPE.NORMAL,
+        scoreValue:200
+    }
+];
